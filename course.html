@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <title>College</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.jpg" alt="College Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Explore Our Courses</h1>
+  </section>
+
+  <!---about us content-->
+  
+  <!-- Course Section -->
+  <section class="course">
+    <h1>Transform Your Future with Our Degrees</h1>
+    <p>we offer specialized programs designed to provide students with advanced knowledge and practical skills</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>B.Tech</h3>
+        <p>Undergraduate programs in Engineering fields like Computer Science, [specializations like AIML,DS,CS,IOT],Information Technology,ECE,EEE focusing on innovation and hands-on learning.</p>
+      </div>
+      <div class="course-col">
+        <h3>M.Tech</h3>
+        <p>Postgraduate programs in [specializations like Software Engineering, Structural Engineering ]preparing students for leadership roles in technology and research.</p>
+      </div>
+      <div class="course-col">
+        <h3>MBA</h3>
+        <p>A comprehensive program to develop leadership, strategic, and management skills, with specializations in [Finance, Marketing, Operations].</p>
+      </div>
+    </div>
+  </section>
+  <!-- Campus Section -->
+<!----Facilities-->
+<section class="facilities">
+  <h1>Modern Facilities for Your Growth</h1>
+  <p>Our campus offers excellent facilities, including a spacious playground, comfortable hostels, a vibrant cafeteria, well-equipped libraries, modern classrooms, and state-of-the-art labs, all designed to enhance student life and academic success.</p>
+  <div class="row">
+    <div class="facilities-col">
+      <img src="images/ground.jpg">
+      <h3>Largest Play Ground</h3>
+      <p>Our spacious playground is perfect for various outdoor sports and recreational activities.</p>
+    </div>
+    <div class="facilities-col">
+      <img src="images/canteenn.jpg">
+      <h3>Cafeteria</h3>
+      <p>A vibrant space offering delicious meals, where students can relax and refuel</p>
+    </div>
+    <div class="facilities-col">
+      <img src="images/hostel1.jpg">
+      <h3>Hostel</h3>
+      <p>Comfortable and secure accommodation with all the essential amenities for a home-like experience.</p>
+    </div>
+  </div>
+</section>
+<!------ testimonials ------>
+
+<!----Call to Action-->
+
+<!---Footer-->
+<Section class="footer">
+  <h4>About Us</h4>
+  <p>MRECW is UGC Autonomous, NAAC 'A+' accredited, and ranked highly by NIRF, ARIIA, and other surveys. It holds ISO certification, multiple awards, and has placed over 12,000 students since 2012.</p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+</Section>
+  <!-- Javascript for Toggle Menu -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu() {
+  navLinks.style.right = "-200px";
+}
+  </script>
+</body>
+</html>

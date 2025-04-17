@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <title>College</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.jpg" alt="College Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Our Team</h1>
+  </section>
+  <!---contact us content-->
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487295.22581163223!2d78.07838586924265!3d17.412077907948387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1742922822694!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+      <div class="row">
+        <!-- Left side: Contact Information (address, phone, email) -->
+        <div class="contact-info">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Maisamaguda, Dhulapally</h5>
+              <p>Hyderabad, Telangana</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>9666900696</h5>
+              <p>Monday to Saturday, 9:20 AM to 3:50 PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>info@mrecw.edu.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+    
+        <!-- Right side: Form (name, message, etc.) -->
+        <div class="contact-form">
+          <form actions="">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Email address" required>
+            <textarea rows="8" placeholder="Your Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    
+  <!-- Course Section -->
+
+  <!-- Campus Section -->
+  
+  <!-- testimonials -->
+
+  <!----Call to Action-->
+
+  <!---Footer-->
+  <Section class="footer">
+    <h4>About Us</h4>
+    <p>MRECW is UGC Autonomous, NAAC 'A+' accredited, and ranked highly by NIRF, ARIIA, and other surveys. It holds ISO certification, multiple awards, and has placed over 12,000 students since 2012.</p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+  </Section>
+
+
+
+  <!-- Javascript for Toggle Menu -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+  navLinks.style.right = "0";
+}
+function hideMenu() {
+  navLinks.style.right = "-200px";
+}
+  </script>
+</body>
+</html>
